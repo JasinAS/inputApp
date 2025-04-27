@@ -18,6 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/input-app",
+            "baseHref": "/inputApp/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -44,8 +45,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "10kb",
+                  "maximumError": "100kb"
                 }
               ],
               "outputHashing": "all"
